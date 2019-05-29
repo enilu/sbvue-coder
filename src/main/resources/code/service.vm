@@ -3,9 +3,9 @@ package ${packageName};
 
 import ${table.EntityFullClassName};
 import ${table.RepositoryFullClassName};
-import cn.enilu.guns.dao.test.${table.EntityClassName}Repository;
-import cn.enilu.guns.utils.StringUtils;
-import cn.enilu.guns.utils.factory.Page;
+import ${table.basePackageName}.dao.test.${table.EntityClassName}Repository;
+import ${table.basePackageName}.utils.StringUtils;
+import ${table.basePackageName}.utils.factory.Page;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -3,16 +3,16 @@ package ${packageName};
 import ${table.EntityFullClassName};
 import ${table.ServiceFullClassName};
 
-import cn.enilu.guns.bean.annotion.core.BussinessLog;
-import cn.enilu.guns.bean.constant.factory.PageFactory;
-import cn.enilu.guns.bean.dictmap.CommonDict;
-import cn.enilu.guns.bean.enumeration.BizExceptionEnum;
-import cn.enilu.guns.bean.exception.GunsException;
-import cn.enilu.guns.bean.vo.front.Rets;
+import ${table.basePackageName}.bean.core.BussinessLog;
+import ${table.basePackageName}.bean.constant.factory.PageFactory;
+import ${table.basePackageName}.bean.dictmap.CommonDict;
+import ${table.basePackageName}.bean.enumeration.BizExceptionEnum;
+import ${table.basePackageName}.bean.exception.GunsException;
+import ${table.basePackageName}.bean.vo.front.Rets;
 
-import cn.enilu.guns.utils.Maps;
-import cn.enilu.guns.utils.ToolUtil;
-import cn.enilu.guns.utils.factory.Page;
+import ${table.basePackageName}.utils.Maps;
+import ${table.basePackageName}.utils.ToolUtil;
+import ${table.basePackageName}.utils.factory.Page;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

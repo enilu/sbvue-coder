@@ -1,4 +1,4 @@
-# guns-lite代码生成工具
+# web-flash 代码生成工具
 
 ## 使用方法
 
@@ -12,12 +12,12 @@ git clone https://github.com/enilu/sbvue-coder.git
 cd sbvue-coder
 mvn install
 
---在guns-lite的guns-entity的pom.xml文件中添加依赖：guns-lite/guns-entity/pom.xml
+--在web-flash的flash-core的pom.xml文件中添加依赖：web-flash/flash-core/pom.xml
 
 <dependency>
     <groupId>cn.enilu</groupId>
     <artifactId>sbvue-coder</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 </dependency>
 ```
 
@@ -28,17 +28,17 @@ mvn install
         - 2，代码生成参数,详见下面说明
         - 3，在哪个模块中执行代码生成：guns-entity，因为代码生成是通过读取guns-entity中的实体类的注解实现，所以这里选择guns-entity
 
-- 新建配置文件：guns-entity/src/main/resources/code/code.json,配置文件内容如下，下面内容指定了生成的相关代码分别放在哪个模块下，考虑到有的同学可能会更改项目名和模块名，增加该配置，开发人员可以自行配置模块名
+- 新建配置文件：flash-core/src/main/resources/code/code.json,配置文件内容如下，下面内容指定了生成的相关代码分别放在哪个模块下，考虑到有的同学可能会更改项目名和模块名，增加该配置，开发人员可以自行配置模块名
 ```json
 {
   "codeConfig": {
     "type": "cn.enilu.sbvue.code.CodeConfig",
     "fields": {
-      entityModel: "guns-entity",
-      daoModel: "guns-dao",
-      serviceModel: "guns-service",
-      controllerModel: "guns-api",
-      viewModel: "guns-admin-vuejs"
+      entityModel: "flash-core",
+      daoModel: "flash-core",
+      serviceModel: "flash-core",
+      controllerModel: "flash-api",
+      viewModel: "flash-vue-admin"
     }
   }
 }

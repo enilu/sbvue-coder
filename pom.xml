@@ -8,7 +8,7 @@
     <artifactId>sbvue-coder</artifactId>
     <version>1.1</version>
     <packaging>jar</packaging>
-    <description>生成基于guns-lite https://github.com/enilu/guns-lite 的代码工具 </description>
+    <description>生成基于web-flash https://github.com/enilu/web-flash 的代码工具 </description>
     <url>https://github.com/enilu/sbvue-coder</url>
     <properties>
         <java-version>1.8</java-version>

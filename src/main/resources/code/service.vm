@@ -3,7 +3,7 @@ package ${packageName};
 
 import ${table.EntityFullClassName};
 import ${table.RepositoryFullClassName};
-import ${table.basePackageName}.dao.test.${table.EntityClassName}Repository;
+import ${table.basePackageName}.dao.${table.modPackageName}.${table.EntityClassName}Repository;
 import ${table.basePackageName}.utils.StringUtils;
 import ${table.basePackageName}.utils.factory.Page;
 

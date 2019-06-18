@@ -6,7 +6,7 @@
 
     <groupId>cn.enilu</groupId>
     <artifactId>sbvue-coder</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
     <description>生成基于guns-lite https://github.com/enilu/guns-lite 的代码工具 </description>
     <url>https://github.com/enilu/sbvue-coder</url>
